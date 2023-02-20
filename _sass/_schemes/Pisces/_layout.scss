@@ -127,3 +127,27 @@
     padding-right: 260px;
   }
 }
+
+// 我的自定义样式，设置内容区域宽度
+@include desktop-large() {
+  .header {
+    width: 80%;
+  } /* 80% */
+  .container .main-inner {
+    width: 80%;
+  } /* 80% */
+  .content-wrap {
+    width: calc(100% - 260px);
+  }
+}
+@include tablet() {
+  .header {
+    width: 80%;
+  } /* 80% */
+  .container .main-inner {
+    width: 80%;
+  } /* 80% */
+  .content-wrap {
+    width: calc(100% - 260px);
+  }
+}
