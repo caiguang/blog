@@ -10,9 +10,9 @@ tags: apache java 编程
 
 Apache Commons项目的由三部分组成：
 
-- The Commons Proper - 一个可重用的Java组件库。(已经发布过的)
-- The Commons Sandbox - Java组件开发工作区. (正在开发的项目)
-- The Commons Dormant - 当前处于非活动状态的组件库.(刚启动或者已经停止维护的项目)
+- **The Commons Proper** - 一个可重用的Java组件库。*(已经发布过的)*
+- **The Commons Sandbox** - Java组件开发工作区. *(正在开发的项目)*
+- **The Commons Dormant** - 当前处于非活动状态的组件库.*(刚启动或者已经停止维护的项目)*
 
 ---
 
