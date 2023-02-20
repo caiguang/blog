@@ -15,7 +15,7 @@ Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3
 
 以下为整体结构：
 
-## 0.1、引入方案，maven引入方式
+## 引入方案，maven引入方式
 
 ```xml
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
@@ -26,7 +26,7 @@ Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3
 </dependency>
 ```
 
-## 0.2、简单介绍
+## 简单介绍
 
 | 包                                      | 描述                                                         |
 | --------------------------------------- | ------------------------------------------------------------ |
@@ -50,7 +50,7 @@ Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3
 
 
 
-## 01. **日期相关**
+## 日期相关
 
 
 
@@ -102,7 +102,7 @@ boolean isSameDay = DateUtils.isSameDay(newDate1, newDate2); // 判断是否是�
 
 
 
-## **02. 字符串相关**
+## 字符串相关
 
 
 
@@ -267,7 +267,7 @@ RandomStringUtils.randomNumeric(5);
 
 
 
-## **03. 反射相关**
+## 反射相关
 
 
 
@@ -365,7 +365,7 @@ public void invokeDemo() throws Exception {
 
 
 
-## **04. 系统相关**
+## 系统相关
 
 主要是获取操作系统和JVM一些信息，下面看例子
 
@@ -396,6 +396,6 @@ File tmpDir = SystemUtils.getJavaIoTmpDir();
 
 
 
-## **05. 最后**
+## 最后
 
 除了以上介绍的工具类外，还有其他不是很常用的就不多做介绍了。感兴趣的可以自行翻阅源码研究。
