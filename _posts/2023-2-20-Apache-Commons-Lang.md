@@ -13,8 +13,6 @@ lang最新版本是2.6，最低要求Java1.2以上，目前官方已不在维护
 
 Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3.12.0版本为例做说明。
 
-以下为整体结构：
-
 ## 引入方案，maven引入方式
 
 ```xml
@@ -22,7 +20,7 @@ Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3
 <dependency>
     <groupId>org.apache.commons</groupId>
     <artifactId>commons-lang3</artifactId>
-    <version>3.10</version>
+    <version>3.12.0</version>
 </dependency>
 ```
 
