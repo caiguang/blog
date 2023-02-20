@@ -20,7 +20,7 @@ Apache Commons项目的由三部分组成：
 
 Commons Proper的目的是创建和维护可重用的Java组件库。Commons Proper是一个协作与共享的地方，Commons的开发者努力确保其组件对其他的软件库的依赖最少，以便可以轻松地部署这些组件。此外，Commons组件会尽可能的保持其接口的稳定，因而Apache用户以及其他Apache项目可以实现这些组件，而无需担心未来接口的变化。
 
-以下部分组件节选自官方，详情请参见官网：[https://commons.apache.org/](https://commons.apache.org/)
+以下部分组件节选自官方，详情请参见官网：[https://commons.apache.org/](https://commons.apache.org/?_blank)
 
 | 组件          | 描述                                                         |
 | ------------- | ------------------------------------------------------------ |
