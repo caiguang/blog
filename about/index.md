@@ -3,9 +3,9 @@ layout: page
 type: about
 ---
 
-你好，我是蔡广:smile:
+你好，我是蔡广
 
-:point_down: 以下是我的练习方式
+
 
 域名：caiguang.cc
 
