@@ -2,7 +2,7 @@
 title: Apache Commons简介
 date: 2023-2-19
 category: Java
-tags: apache java 编程
+tags: apache java
 excerpt: Apache Commons是Apache软件基金会的项目，曾隶属于Jakarta项目。Commons的目的是提供可重用的、开源的Java代码。建立和维护可重用的Java组件。使用组件可以提高开发效率和质量。
 ---
 **Apache Commons**是Apache软件基金会的项目，曾隶属于Jakarta项目。Commons的目的是提供可重用的、开源的Java代码。建立和维护可重用的Java组件。使用组件可以提高开发效率和质量。
