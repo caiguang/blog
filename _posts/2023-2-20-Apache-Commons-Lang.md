@@ -2,9 +2,11 @@
 title: Apache Commons Lang
 date: 2023-2-20
 category: Java
-tags: apache java
+tags: "apache commons"
 excerpt: Apache Commons Lang为java.lang API提供了许多辅助实用程序，特别是 字符串操作方法、基本数值方法、对象反射、并发、创建和序列化 和系统属性。此外，它还包含对java.util.Date的基本增强功能以及一系列专用于帮助的实用程序 构建方法，如hashCode，toString和equals。
 ---
+## Apache Commons Lang简介
+
 **Apache Commons Lang**是对java.lang的扩展，基本上是commons中最常用的工具包。
 
 目前Lang包有两个commons-lang3和commons-lang。
@@ -12,20 +14,6 @@ excerpt: Apache Commons Lang为java.lang API提供了许多辅助实用程序，
 lang最新版本是2.6，最低要求Java1.2以上，目前官方已不在维护。lang3目前最新版本是3.12.0，最低要求Java8以上。相对于lang来说完全支持Java8的特性，废除了一些旧的API。该版本无法兼容旧有版本，于是为了避免冲突改名为lang3。
 
 Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3.12.0版本为例做说明。
-
-## 引入方案，maven引入方式
-
-```xml
-<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
-<dependency>
-    <groupId>org.apache.commons</groupId>
-    <artifactId>commons-lang3</artifactId>
-    <version>3.12.0</version>
-</dependency>
-```
-
-## 简单介绍
-
 | 包                                      | 描述                                                         |
 | --------------------------------------- | ------------------------------------------------------------ |
 | org.apache.commons.lang3                | 提供高度可重用的静态实用程序方法，主要用于为java.lang类增加值。 |
@@ -43,10 +31,18 @@ Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3
 | org.apache.commons.lang3.time           | 提供处理日期和持续时间的类和方法。                           |
 | org.apache.commons.lang3.tuple          | 元组类，从版本3.0中的对类开始。                              |
 
+## maven坐标
+
+```xml
+<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-lang3</artifactId>
+    <version>3.12.0</version>
+</dependency>
+```
 
 下面只列举其中常用的加以说明，其余感兴趣的可以自行翻阅源码研究。
-
-
 
 ## 日期相关
 
@@ -54,7 +50,7 @@ Java8以上的用户推荐使用lang3代替lang，下面我们主要以lang3 - 3
 
 在Java8之前，日期只提供了java.util.Date类和java.util.Calendar类，说实话这些API并不是很好用，而且也存在线程安全的问题，所以Java8推出了新的日期API。如果你还在用旧的日期API，可以使用DateUtils和DateFormatUtils工具类。
 
-1. 字符串转日期
+### 字符串转日期
 
 ```java
 final String strDate = "2021-07-04 11:11:11";
@@ -68,7 +64,7 @@ Date date2 = DateUtils.parseDate(strDate, pattern);
 
 
 
-2. 日期转字符串
+### 日期转字符串
 
 ```java
 final Date date = new Date();
@@ -82,7 +78,7 @@ String strDate = DateFormatUtils.format(date, pattern);
 
 
 
-3. 日期计算
+### 日期计算
 
 ```java
 final Date date = new Date();
@@ -108,7 +104,7 @@ boolean isSameDay = DateUtils.isSameDay(newDate1, newDate2); // 判断是否是�
 
 
 
-1. 字符串判空
+### 字符串判空
 
 ```java
 String str = "";
@@ -152,7 +148,7 @@ StringUtils.isAllEmpty(str1, str2, str3);
 
 
 
-2. 字符串去空格
+### 字符串去空格
 
 ```java
 // 去除两端空格，不需要判断null
@@ -194,7 +190,7 @@ newStr = StringUtils.stripEnd(str, "stripChars");
 
 
 
-3. 字符串分割
+### 字符串分割
 
 ```java
 /*
@@ -212,7 +208,7 @@ newStr = StringUtils.stripEnd(str, "stripChars");
 
 
 
-4. 取子字符串
+### 取子字符串
 
 ```java
 // 获得"ab.cc.txt"中最后一个.之前的字符串
@@ -232,7 +228,7 @@ StringUtils.substringBetween("a(bb)c", "(", ")"); // bb
 
 
 
-5. 其他
+### 其他
 
 ```java
 // 首字母大写
@@ -250,7 +246,7 @@ StringUtils.remove("abbc", "b"); // ac
 
 
 
-6. 随机字符串
+### 随机字符串
 
 ```java
 // 随机生成长度为5的字符串
@@ -271,7 +267,7 @@ RandomStringUtils.randomNumeric(5);
 
 反射是Java中非要重要的特性，原生的反射API代码冗长，Lang包中反射相关的工具类可以很方便的实现反向相关功能，下面看例子
 
-1. 属性操作
+### 属性操作
 
 ```java
 public class ReflectDemo {
@@ -315,7 +311,7 @@ public class ReflectDemo {
 
 
 
-2. 获取注解方法
+### 获取注解方法
 
 ```java
 // 获取被Test注解标识的方法
@@ -333,7 +329,7 @@ Method[] methods = MethodUtils.getMethodsWithAnnotation(ReflectDemo.class, Test.
 
 
 
-3. 方法调用
+### 方法调用
 
 ```java
 private static void testStaticMethod(String param1) {}
