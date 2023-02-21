@@ -227,10 +227,10 @@ social:
 social_icons:
   enable: true
   # Icon Mappings.
-  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  Bilibili: chrome
-  GitHub: github
-  Gitee: chrome
+  # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome,图标都是我乱写的根本不存在的
+  Bilibili: bilibili
+  GitHub: caiguang
+  Gitee: gitee
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
