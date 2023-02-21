@@ -228,9 +228,9 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  Bilibili: bilibili
-  GitHub: github
-  Gitee: gitter
+  # Bilibili: bilibili
+  # GitHub: github
+  # Gitee: gitter
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
