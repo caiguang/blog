@@ -11,15 +11,11 @@ Apache Commons CLI 是 Apache 下面的一个解析命令行输入的工具包�
 
 Apache Commons CLI 支持多种输入参数格式，主要支持的格式有以下几种：
 
-- POSIX（Portable Operating System Interface of Unix）中的参数形式，例如 tar -zxvf foo.tar.gz
-
-- GNU 中的长参数形式，例如 du --human-readable --max-depth=1
-
-- Java 命令中的参数形式，例如 java -Djava.net.useSystemProxies=true Foo
-
-- 短杠参数带参数值的参数形式，例如 gcc -O2 foo.c
-
-- 长杠参数不带参数值的形式，例如 ant – projecthelp
+- POSIX（Portable Operating System Interface of Unix）中的参数形式，例如 `tar -zxvf foo.tar.gz`
+- GNU 中的长参数形式，例如 `du --human-readable --max-depth=1`
+- Java 命令中的参数形式，例如 `java -Djava.net.useSystemProxies=true Foo`
+- 短杠参数带参数值的参数形式，例如 `gcc -O2 foo.c`
+- 长杠参数不带参数值的形式，例如 `ant – projecthelp`
 
 CLI 命令代码实现
 
@@ -102,11 +98,6 @@ import org.apache.commons.cli.Options;
 import org.apache.commons.cli.ParseException;
 import org.apache.commons.cli.PosixParser;
 
-
-/**
- * DateTime: 2015年1月1日 下午5:07:31
- *
- */
 public class Test {
     public static void main(String[] args) {
         String[] arg = { "-h", "-c", "config.xml" };
