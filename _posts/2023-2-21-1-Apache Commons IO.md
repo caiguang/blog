@@ -13,16 +13,16 @@ Commons IO目前最新版本是2.11.0，最低要求Java8以上。
 
 以下为整体结构：
 
-> io - 此包定义了用于处理流、读取器、写入器和文件的实用程序类。
-> comparator - 此软件包为文件提供了各种比较器实现。
-> file - 此软件包在 java.nio.file 领域提供扩展。
-> filefilter - 此包定义了一个接口 （IOFileFilter），该接口结合了 FileFilter 和 FilenameFilter。
-> function - 此包为 lambda 表达式和方法引用定义仅 IO 相关函数接口。
-> input - 此包提供输入类的实现，例如 InputStream 和 Reader。
-> input.buffer - 此包提供缓冲输入类的实现，例如 CircularBufferInputStream 和 PeekableInputStream。
-> monitor - 此包提供用于监控文件系统事件（目录和文件创建、更新和删除事件）的组件。
-> output - 此包提供输出类的实现，例如输出流和编写器。
-> serialization - 此包提供用于控制类反序列化的框架。
+- io - 此包定义了用于处理流、读取器、写入器和文件的实用程序类。
+- comparator - 此软件包为文件提供了各种比较器实现。
+- file - 此软件包在 java.nio.file 领域提供扩展。
+- filefilter - 此包定义了一个接口 （IOFileFilter），该接口结合了 FileFilter 和 FilenameFilter。
+- function - 此包为 lambda 表达式和方法引用定义仅 IO 相关函数接口。
+- input - 此包提供输入类的实现，例如 InputStream 和 Reader。
+- input.buffer - 此包提供缓冲输入类的实现，例如 CircularBufferInputStream 和 PeekableInputStream。
+- monitor - 此包提供用于监控文件系统事件（目录和文件创建、更新和删除事件）的组件。
+- output - 此包提供输出类的实现，例如输出流和编写器。
+- serialization - 此包提供用于控制类反序列化的框架。
 
 
 
