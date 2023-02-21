@@ -229,7 +229,7 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   # Bilibili: bilibili
-  # GitHub: github
+  GitHub: github
   # Gitee: gitter
 
 # Sidebar Avatar
