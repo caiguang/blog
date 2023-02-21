@@ -23,19 +23,12 @@ maven坐标如下：
 
 以下为整体结构：
 
-- org.apache.commons.compress
-
-- org.apache.commons.compress.archivers #归档
-
-- org.apache.commons.compress.changes #变化
-
-- org.apache.commons.compress.compressors #压缩
-
-- org.apache.commons.compress.parallel #并行
-
-- org.apache.commons.compress.utils #工具
-
-- org.apache.commons.compress.harmony pack算法抽离
+- archivers #归档
+- changes #变化
+- compressors #压缩
+- parallel #并行
+- utils #工具
+- harmony #pack算法抽离
 
 下面只列举其中常用的加以说明，其余感兴趣的可以自行翻阅源码研究。
 
