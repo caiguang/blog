@@ -132,7 +132,7 @@ menu:
   about: /about/
   archives: /archives/
   tags: /tags/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 # Enable/Disable menu icons.
@@ -215,9 +215,9 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-Bilibili: https://space.bilibili.com/628189581
-GitHub: https://github.com/caiguang
-Gitee: https://gitee.com/caiguang_cc
+  Bilibili: https://space.bilibili.com/628189581
+  GitHub: https://github.com/caiguang
+  Gitee: https://gitee.com/caiguang_cc
 
 # Social Links Icons
 # Icon Mapping:
