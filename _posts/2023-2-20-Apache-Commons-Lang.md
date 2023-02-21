@@ -2,7 +2,7 @@
 title: Apache Commons Lang
 date: 2023-2-20
 category: Java
-tags: apache commons
+tags: apache-commons
 excerpt: Apache Commons Lang为java.lang API提供了许多辅助实用程序，特别是 字符串操作方法、基本数值方法、对象反射、并发、创建和序列化 和系统属性。此外，它还包含对java.util.Date的基本增强功能以及一系列专用于帮助的实用程序 构建方法，如hashCode，toString和equals。
 ---
 ## Apache Commons Lang简介

@@ -2,7 +2,7 @@
 title: Apache Commons IO
 date: 2023-2-21
 category: Java
-tags: apache commons
+tags: apache-commons
 excerpt: Apache Commons IO是对java.io的扩展，用于协助开发IO功能。
 ---
 ## Apache Commons IO简介
