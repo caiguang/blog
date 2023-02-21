@@ -215,8 +215,8 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
-  caiguang.cc: https://caiguang.cc
-  Bilibili: https://space.bilibili.com/628189581
+  我的主页: https://caiguang.cc
+  我的B站: https://space.bilibili.com/628189581
   GitHub: https://github.com/caiguang
   Gitee: https://gitee.com/caiguang_cc
 
@@ -229,8 +229,8 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome,图标都是我乱写的根本不存在的
-  Bilibili: bilibili
-  caiguang.cc: caiguang
+  我的B站: bilibili
+  我的主页: caiguang
   GitHub: caiguang
   Gitee: gitee
 
