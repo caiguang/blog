@@ -228,9 +228,9 @@ social_icons:
   enable: true
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
-  Bilibili: webhook
+  Bilibili: browser-chrome
   GitHub: github
-  Gitee: webhook
+  Gitee: browser-chrome
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
