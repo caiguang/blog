@@ -1,5 +1,5 @@
 ---
-title: systemctl Linux命令，用于管理系统和管理服务的工具
+title: systemctl Linux用于管理系统和管理服务的工具
 date: 2023-2-22
 category: Linux
 tags: systemctl
