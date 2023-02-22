@@ -1,5 +1,5 @@
 ---
-title: Apache Commons - 一个Apache项目，专注于所有方面 可重用的 Java 组件。
+title: Apache Commons 一个Apache项目，专注于所有方面 可重用的 Java 组件。
 date: 2023-2-19
 category: Java
 tags: apache-commons

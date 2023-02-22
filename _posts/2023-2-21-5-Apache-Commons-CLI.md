@@ -1,5 +1,5 @@
 ---
-title: Apache Commons CLI 一个解析命令行输入的工具包
+title: Apache Commons CLI 解析命令行输入的工具包
 date: 2023-2-21
 category: Java
 tags: apache-commons
