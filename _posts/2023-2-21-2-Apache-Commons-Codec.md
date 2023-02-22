@@ -1,5 +1,5 @@
 ---
-title: Apache Commons Codec
+title: Apache Commons Codec 提供了通用编码器和解码器的实现,有提供许多编解码相关的工具类。
 date: 2023-2-21
 category: Java
 tags: apache-commons

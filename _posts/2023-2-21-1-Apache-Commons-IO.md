@@ -1,5 +1,5 @@
 ---
-title: Apache Commons IO
+title: Apache Commons IO - 一个对java.io的扩展，主要是对Java中的io封装了一些好用的工具类
 date: 2023-2-21
 category: Java
 tags: apache-commons
