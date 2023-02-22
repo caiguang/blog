@@ -7,7 +7,14 @@ excerpt: Apache Commons Compress提供了许多解压缩、归档文件相关的
 ---
 **Apache Commons Compress**提供了许多编解码相关的工具类。Compress目前最新版本是1.22，最低要求Java8以上。
 
-maven坐标如下：
+以下为整体结构：
+- archivers #归档
+- changes #变化
+- compressors #压缩
+- parallel #并行
+- utils #工具
+- harmony #pack算法抽离
+## maven坐标
 
 ```xml
 <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-compress -->
@@ -18,17 +25,6 @@ maven坐标如下：
 </dependency>
 
 ```
-
-
-
-以下为整体结构：
-
-- archivers #归档
-- changes #变化
-- compressors #压缩
-- parallel #并行
-- utils #工具
-- harmony #pack算法抽离
 
 下面只列举其中常用的加以说明，其余感兴趣的可以自行翻阅源码研究。
 
