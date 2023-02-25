@@ -38,65 +38,36 @@ excerpt: Apache Commons Compress提供了许多解压缩、归档文件相关的
 
 
 
-**Compress**自带了很多压缩相关的类，主要以下几个
+- **Compress**自带了很多压缩相关的类，主要以下几个
 
+- **GzipCompressorOutputStream：**压缩"*.gz"文件
+- **GzipCompressorInputStream**：解压"*.gz"文件
 
+- **BZip2CompressorOutputStream**：压缩"*.bz2"文件
+- **BZip2CompressorInputStream**：解压"*.bz2"文件
 
-**GzipCompressorOutputStream：**压缩"*.gz"文件
+- **XZCompressorOutputStream**：压缩"*.xz"文件
+- **XZCompressorInputStream**：解压"*.xz"文件
 
-**GzipCompressorInputStream**：解压"*.gz"文件
+- **FramedLZ4CompressorOutputStream**：压缩"*.lz4"文件
+- **FramedLZ4CompressorInputStream**：解压"*.lz4"文件
 
+- **BlockLZ4CompressorOutputStream**：压缩"*.block_lz4"文件
+- **BlockLZ4CompressorInputStream**：解压"*.block_lz4"文件
 
+- **Pack200CompressorOutputStream**：压缩"*.pack"文件
+- **Pack200CompressorInputStream**：解压"*.pack"文件
 
-**BZip2CompressorOutputStream**：压缩"*.bz2"文件
+- **DeflateCompressorOutputStream**：压缩"*.deflate"文件
+- **DeflateCompressorInputStream**：解压"*.deflate"文件
 
-**BZip2CompressorInputStream**：解压"*.bz2"文件
+- **LZMACompressorOutputStream**：压缩"*.lzma"文件
+- **LZMACompressorInputStream**：解压"*.lzma"文件
 
+- **FramedSnappyCompressorOutputStream**：压缩"*.sz"文件
+- **FramedSnappyCompressorInputStream**：解压"*.sz"文件
 
-
-**XZCompressorOutputStream**：压缩"*.xz"文件
-
-**XZCompressorInputStream**：解压"*.xz"文件
-
-
-
-**FramedLZ4CompressorOutputStream**：压缩"*.lz4"文件
-
-**FramedLZ4CompressorInputStream**：解压"*.lz4"文件
-
-
-
-**BlockLZ4CompressorOutputStream**：压缩"*.block_lz4"文件
-
-**BlockLZ4CompressorInputStream**：解压"*.block_lz4"文件
-
-
-
-**Pack200CompressorOutputStream**：压缩"*.pack"文件
-
-**Pack200CompressorInputStream**：解压"*.pack"文件
-
-
-
-**DeflateCompressorOutputStream**：压缩"*.deflate"文件
-
-**DeflateCompressorInputStream**：解压"*.deflate"文件
-
-
-
-**LZMACompressorOutputStream**：压缩"*.lzma"文件
-
-**LZMACompressorInputStream**：解压"*.lzma"文件
-
-
-
-**FramedSnappyCompressorOutputStream**：压缩"*.sz"文件
-
-**FramedSnappyCompressorInputStream**：解压"*.sz"文件
-
-
-
-**ZCompressorInputStream**：解压"*.Z"文件
+- **ZCompressorInputStream**：解压"*.Z"文件
 
 
 
@@ -171,53 +142,30 @@ try (BZip2CompressorInputStream bzis = new BZip2CompressorInputStream(is)) {
 
 
 
-**Compress**自带了很多归档相关的类，主要以下几个
+- **Compress**自带了很多归档相关的类，主要以下几个
 
+- **TarArchiveOutputStream**：归档"*.tar"文件
+- **TarArchiveInputStream**：解包"*.tar"文件
 
+- **ZipArchiveOutputStream**：归档压缩"*.zip"文件
+- **ZipArchiveInputStream**：解包解压"*.zip"文件
 
-**TarArchiveOutputStream**：归档"*.tar"文件
+- **JarArchiveOutputStream**：归档压缩"*.jar"文件
+- **JarArchiveInputStream**：解包解压"*.jar"文件
 
-**TarArchiveInputStream**：解包"*.tar"文件
+- **DumpArchiveOutputStream**：归档"*.dump"文件
+- **DumpArchiveInputStream**：解包"*.dump"文件
 
+- **CpioArchiveOutputStream**：归档压缩"*.cpio"文件
+- **CpioArchiveInputStream**：解包解压"*.cpio"文件
 
+- **ArArchiveOutputStream**：归档压缩"*.ar"文件
+- **ArArchiveInputStream**：解包解压"*.ar"文件
 
-**ZipArchiveOutputStream**：归档压缩"*.zip"文件
+- **ArjArchiveInputStream**：解包解压"*.arj"文件
 
-**ZipArchiveInputStream**：解包解压"*.zip"文件
-
-
-
-**JarArchiveOutputStream**：归档压缩"*.jar"文件
-
-**JarArchiveInputStream**：解包解压"*.jar"文件
-
-
-
-**DumpArchiveOutputStream**：归档"*.dump"文件
-
-**DumpArchiveInputStream**：解包"*.dump"文件
-
-
-
-**CpioArchiveOutputStream**：归档压缩"*.cpio"文件
-
-**CpioArchiveInputStream**：解包解压"*.cpio"文件
-
-
-
-**ArArchiveOutputStream**：归档压缩"*.ar"文件
-
-**ArArchiveInputStream**：解包解压"*.ar"文件
-
-
-
-**ArjArchiveInputStream**：解包解压"*.arj"文件
-
-
-
-**SevenZOutputFile**：归档压缩"*.7z"文件
-
-**SevenZFile**：解包解压"*.7z"文件
+- **SevenZOutputFile**：归档压缩"*.7z"文件
+- **SevenZFile**：解包解压"*.7z"文件
 
 
 

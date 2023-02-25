@@ -336,17 +336,12 @@ private class MyObservableInputStream extends ObservableInputStream {
 
 ### 其他
 
-BOMInputStream: 同时读取文本文件的bom头
-
-BoundedInputStream：有界的流，控制只允许读取前x个字节
-
-BrokenInputStream: 一个错误流，永远抛出IOException
-
-CharSequenceInputStream: 支持StringBuilder,StringBuffer等读取
-
-LockableFileWriter: 带锁的Writer，同一个文件同时只允许一个流写入，多余的写入操作会跑出IOException
-
-StringBuilderWriter: StringBuilder的Writer
+- BOMInputStream: 同时读取文本文件的bom头
+- BoundedInputStream：有界的流，控制只允许读取前x个字节
+- BrokenInputStream: 一个错误流，永远抛出IOException
+- CharSequenceInputStream: 支持StringBuilder,StringBuffer等读取
+- LockableFileWriter: 带锁的Writer，同一个文件同时只允许一个流写入，多余的写入操作会跑出IOException
+- StringBuilderWriter: StringBuilder的Writer
 
 ... ...
 
@@ -356,21 +351,14 @@ StringBuilderWriter: StringBuilder的Writer
 
 org.apache.commons.io.compare包有很多现成的文件比较器，可以对文件排序的时候直接拿来用。
 
-**DefaultFileComparator**：默认文件比较器，直接使用File的compare方法。（文件集合排序（ Collections.sort() ）时传此比较器和不传效果一样）
-
-**DirectoryFileComparator**：目录排在文件之前
-
-**ExtensionFileComparator**：扩展名比较器，按照文件的扩展名的ascii顺序排序，无扩展名的始终排在前面
-
-**LastModifiedFileComparator**：按照文件的最后修改时间排序
-
-**NameFileComparator**：按照文件名称排序
-
-**PathFileComparator**：按照路径排序，父目录优先排在前面
-
-**SizeFileComparator**：按照文件大小排序，小文件排在前面（目录会计算其总大小）
-
-**CompositeFileComparator**：组合排序，将以上排序规则组合在一起
+- **DefaultFileComparator**：默认文件比较器，直接使用File的compare方法。（文件集合排序（ Collections.sort() ）时传此比较器和不传效果一样）
+- **DirectoryFileComparator**：目录排在文件之前
+- **ExtensionFileComparator**：扩展名比较器，按照文件的扩展名的ascii顺序排序，无扩展名的始终排在前面
+- **LastModifiedFileComparator**：按照文件的最后修改时间排序
+- **NameFileComparator**：按照文件名称排序
+- **PathFileComparator**：按照路径排序，父目录优先排在前面
+- **SizeFileComparator**：按照文件大小排序，小文件排在前面（目录会计算其总大小）
+- **CompositeFileComparator**：组合排序，将以上排序规则组合在一起
 
 使用示例如下：
 
