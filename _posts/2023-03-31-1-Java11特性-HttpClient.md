@@ -1,7 +1,7 @@
 ---
 title: JDK11新特性-HttpClient
 date: 2023-3-31
-category: java
+category: Java
 tags: java
 excerpt: JDK9 的时候，Java 提供了一个新的 Http 请求工具 HttpClient，经过了 JDK10 的再次预览，最终在 JAVA11 中作为正式功能提供使用，同时也完全替换了仅有阻塞模式的`HttpURLConnection`。
 ---
