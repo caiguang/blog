@@ -151,8 +151,8 @@ HttpClient 中可以使用同步发送或者异步发送。
 
 
 ```java
-final HttpResponse<String> send = client.send(httpRequest, HttpResponse.BodyHandlers.ofString());
-System.out.println(send.body());
+final HttpResponse<String> response = client.send(httpRequest, HttpResponse.BodyHandlers.ofString());
+System.out.println(response.body());
 
 ```
 
