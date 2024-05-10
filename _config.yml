@@ -86,7 +86,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: https://caiguang.cc/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "Jekyll, NexT"
