@@ -1,0 +1,10 @@
+{
+	"id": "cursor-effect",
+	"name": "Cursor Effect",
+	"version": "1.2.8",
+	"minAppVersion": "1.6.0",
+	"description": "为Obsidian实现光标特效",
+	"author": "caiguang",
+	"authorUrl": "https://github.com/caiguang",
+	"isDesktopOnly": true
+}

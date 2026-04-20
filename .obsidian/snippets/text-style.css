@@ -1,0 +1,14 @@
+/* 编辑模式（实时输入） */
+.cm-line {
+  line-height: 1.5 !important; /* 行高1.5倍 */
+  letter-spacing: 0.05em !important; /* 字间距0.05em，舒适不挤 */
+}
+/* 预览/阅读模式 */
+.markdown-preview-view {
+  line-height: 1.5 !important;
+  letter-spacing: 0.05em !important;
+}
+/* 标题微调（可选） */
+.HyperMD-header, .markdown-preview-view h1, h2, h3 {
+  letter-spacing: 0.08em !important; /* 标题字间距稍宽，更醒目 */
+}
