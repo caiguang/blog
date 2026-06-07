@@ -7,7 +7,7 @@ type: about
 
 
 
-域名：yanshier.cn
+域名：yanshier.com
 
 邮箱：caiguang@vip.qq.com
 
